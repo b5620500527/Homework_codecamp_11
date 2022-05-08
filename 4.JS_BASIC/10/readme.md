@@ -3,6 +3,7 @@ CODECAMP#11 ONLINE
 นาย จิรภัทร พจน์จริยาพร
 ---------------------------
 1. แปลง Code ดังกล่าวเป็น if-else statement
+
             switch(brower){
             case 'Edge':
             alert("You've got the edge!");
@@ -19,6 +20,7 @@ CODECAMP#11 ONLINE
             }
 
 2. แปลง Code ดังกล่าวเป็น Switch cases
+
             let a =+prompt('a?','');
             if (a==0){
                 alert(0);
