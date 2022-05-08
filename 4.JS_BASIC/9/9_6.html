@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX9.6</title>
+</head>
+<body>
+    
+    <script>
+        //6. ให้เขียนเกมส์ทายตัวเลขสำหรับเล่นสองคนโดน
+            // - ให้ผู้เล่นคนแรกพิมพ์เลขใส่ใน prompt ที่อยู่ระหว่าง 1 ถึง 100 โดยไม่ให้ผู้เล่นคนที่สองรู้ว่าตัวเลขเป็นอะไร
+            // - และให้ผู้เล่นคนที่สองทายเลขโดยการพิมพ์เลขใส่ใน prompt จนกว่าจะถูก ถ้าไม่ถูก จะต้องบอกด้วย
+            //   ว่าเลขที่ผู้เล่นคนที่สองพิมพ์เข้ามามากกว่า หรือ น้อยกว่า คำตอบนั้น
+
+            let score1 = prompt("Player1 จงกรอกเลข : ");
+            if (score1 < 1 ){
+            alert("ตัวเลขน้อยเกินไป");
+            }else if(score1 > 100){
+            alert("ตัวเลขเกิน");
+            }
+        
+
+            while (score2 = score1){
+            let score2 = prompt("player2 จงกรอกเลข");
+            if (score2 > score1){
+                alert("ตัวเลขมากกว่า score1");
+            }else if (score2 < score1){
+                alert("ตัวเลขน้อยกว่า score1");
+            }else if (score2 = score1){
+                alert("ถูกต้องนะคร้าบ");
+                break;
+            }
+            }
+        
+            
+    </script>
+    
+
+</body>
+</html>
