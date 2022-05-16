@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX11.12</title>
+</head>
+<body>
+    
+    <script>
+        function draw(n){
+    let x ="";
+    let k = n;
+    for(let i = 1 ; i  <= n ;i++){
+        for(let j = 1 ; j <= n ;j++){
+            if(j === k ){
+                x = x+'_';
+                k = k-1;
+            }else{
+                x = x+'*';
+            }
+        }
+        console.log(x);
+        x="";
+    }
+    
+}
+    </script>
+</body>
+</html>

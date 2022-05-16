@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX11.20</title>
+</head>
+<body>
+    
+    <script>
+    function draw(n){
+    x = "";
+    y = 0;
+    for(let i = n ; i > 0 ; i--){
+        for(let j = 1 ; j <= n ; j++){
+            if (j < i){
+                x = x + "-";
+            }else{
+                y = y + 1;
+                x = x + y;
+                
+            }
+        }
+        console.log(x);
+        x = "";
+    }
+    for(let k = 2 ; k <= n ; k++){
+        for(let l = 1 ; l <= n ; l++){
+            if (k > l){
+                x = x + "-";
+            }else{
+                y = y + 1;
+                x = x + y;
+                
+            }
+        }
+        console.log(x);
+        x = "";
+    }
+}
+    </script>
+</body>
+</html>
