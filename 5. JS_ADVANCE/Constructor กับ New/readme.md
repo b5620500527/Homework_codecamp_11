@@ -3,6 +3,7 @@ CODECAMP#11 ONLINE
 จิรภัทร พจน์จริยาพร
 ---------------------------
 Exercise Constructor กับ New
+
 1.สร้าง constructor function ที่ใช้สำหรับสร้าง Calculator โดยต้องมี 3 Methods นี้
 - read(): รับค่าจาก propmt สองตัว
 - sum(): ให้คืนค่าจากการบวกกันของตัวแปรสองตัว
