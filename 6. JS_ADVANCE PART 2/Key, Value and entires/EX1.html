@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX.1</title>
+</head>
+<body>
+    
+    <script>
+    let salaries ={
+    "John": 100,
+    "Pete": 300,
+    "Mary": 250,
+    "jame": 0
+    };
+    function sumSalaries(salaries){
+    if(Object.keys(salaries).length === 0 ){
+        return 0;
+    };
+
+    let sum = 0;
+    for (let value of Object.values(salaries)){
+        sum += value ;
+    }
+    return sum;
+    }
+
+    </script>
+</body>
+</html>
